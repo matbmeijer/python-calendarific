@@ -23,7 +23,7 @@ class v2:
 
         return data
 
-    def countries(self, parameters):
+    def countries(self, **parameters):
         url = 'https://calendarific.com/api/v2/countries?'
 
         if 'api_key' not in parameters:
